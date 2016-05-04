@@ -1,0 +1,136 @@
+/* Background Colors*/
+
+body {
+  background-color: #bcb2a8;
+  /* biege */
+  padding: 80px;
+  margin: auto;
+  width:75%;
+}
+
+
+/* Foreground Colors */
+
+/* Global Font */
+@font-face {
+  font-family: 'ShadowsIntoLight';
+  font-style: normal;
+  font-weight: 400;
+  src: local('ShadowsIntoLight'), local('ShadowsIntoLight'), url(https://fonts.gstatic.com/s/shadowsintolight/v6/clhLqOv7MXn459PTh0gXYKkG_nMAIv3PPZbC2XDns-o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* Global Heading Two/Three */
+h2, h3 {
+  font-family: Georgia, Times, serif;
+}
+
+/* Heading One */
+
+h1{
+	font-family: ShadowsIntoLight, MonotypeCorsiva, Impact;
+	font-size: 34px; 
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.4em;
+	text-align: center;
+	text-shadow: 6px 0px rgba(0,0,0,0.15);
+	color: #ffffff;
+}
+	
+/* Heading Two */	
+h2{
+	font-size: 28px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.4em;
+	text-align: center;
+	text-shadow: 1px 0px 0px #ffffff;
+	color: #df0001;
+	border: groove;
+	background-color: #000000;
+}
+	
+/* Heading Three */	
+h3{ 
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.4em;
+	text-align: center;
+	text-shadow: 0px 0px 0px #000000; 
+	color: #df0001;
+}
+	
+/* Paragraph */
+p{
+	font-family: Arial, Georgia, sans-serif;
+	line-height: 1.4em;
+	color: #ffffff;
+	padding: 5px;
+}
+/* Links */
+a:link{ 
+	color: #cccccc;
+	border-radius: 10px;
+	
+}
+a:visited{
+	color: #800080;
+	font-style: italic;
+}
+a:hover{
+	color: #df0001;
+	background-color: #ffffff;
+}
+a:active{
+	color:#ffffff;
+	font-weight: bold;	
+}
+/* Ordered/Unordered Lists */
+ol{
+	list-style-type: upper-roman;
+	
+}
+ul{
+	margin: auto;
+	list-style-type: circle;
+	width: 90px;
+	text-align: left;
+}
+/* Box Model */
+
+/* Images Box */
+img{
+	
+	width: 50%;
+	height: 950px;
+	padding:5px;
+	border: groove;
+	margin: auto;
+	border-radius: 20px;
+	background-color: #494641;
+}
+
+/* Page Box */
+div{
+	float: left;
+	width: 75%;
+	height: 2295px;
+	padding:5px;
+	border: groove;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: inset 0 0 10px #777777;
+	background-color: rgba(78, 70, 65, 0.5);
+	}
+header, section, footer, aside, nav, figure, figcaption{
+	display: block;
+	}
+/* Aside Box */
+aside{
+	float: left;
+	border: groove;
+	width: 20%;
+	padding: 5px;
+	margin: auto;
+	}
